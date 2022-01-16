@@ -2,7 +2,8 @@ const imagensPainel = document.querySelectorAll('.imagem-painel');
 const setaAvancar = document.getElementById('btn-avancar');
 const setavoltar = document.getElementById('btn-voltar');
 
-let imagemAtual = 0;
+let imagemAtual = 1;
+
 
 setaAvancar.addEventListener('click', function () {
 
