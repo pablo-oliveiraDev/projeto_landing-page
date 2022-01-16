@@ -12,7 +12,7 @@ setaAvancar.addEventListener('click', function () {
         imagem.classList.remove('mostrar')
         console.log(imagem)
 
-        if (imagemAtual > 2) {
+        if (imagemAtual >= 2) {
             document.getElementById("btn-avancar").style.opacity = "0"
             document.getElementById("btn-voltar").style.opacity = "1"
             return imagemAtual = 2;
@@ -28,7 +28,7 @@ setavoltar.addEventListener('click', function () {
         imagem.classList.remove('mostrar')
         console.log(imagem)
 
-        if (imagemAtual < 0) {
+        if (imagemAtual <= 0) {
             document.getElementById("btn-voltar").style.opacity = "0"
             document.getElementById("btn-avancar").style.opacity = "1"
             return imagemAtual = 0 ;
