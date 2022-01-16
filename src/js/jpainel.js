@@ -11,7 +11,7 @@ setaAvancar.addEventListener('click', function () {
     imagemAtual++;
     imagensPainel.forEach(imagem => {
         imagem.classList.remove('mostrar')
-        console.log(imagem)
+       
 
         if (imagemAtual >= 2) {
             document.getElementById("btn-avancar").style.opacity = "0"
@@ -27,7 +27,7 @@ setavoltar.addEventListener('click', function () {
     imagemAtual--;
     imagensPainel.forEach(imagem => {
         imagem.classList.remove('mostrar')
-        console.log(imagem)
+        
 
         if (imagemAtual <= 0) {
             document.getElementById("btn-voltar").style.opacity = "0"
